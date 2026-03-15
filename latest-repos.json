@@ -7,9 +7,9 @@
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "url": "https://github.com/affaan-m/everything-claude-code",
     "homepage": "https://ecc.tools",
-    "stars": 76407,
-    "forks": 9542,
-    "watchers": 76407,
+    "stars": 76452,
+    "forks": 9549,
+    "watchers": 76452,
     "language": "JavaScript",
     "topics": [
       "ai-agents",
@@ -22,7 +22,7 @@
       "productivity"
     ],
     "createdAt": "2026-01-18T00:51:51Z",
-    "updatedAt": "2026-03-15T11:22:40Z",
+    "updatedAt": "2026-03-15T12:13:52Z",
     "license": "MIT License",
     "score": 76
   },
@@ -42,9 +42,9 @@
       "description": "Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
       "homepage": "https://www.zeroclawlabs.ai/",
-      "stars": 27122,
+      "stars": 27126,
       "forks": 3586,
-      "watchers": 27122,
+      "watchers": 27126,
       "language": "Rust",
       "topics": [
         "agent",
@@ -53,7 +53,7 @@
         "openclaw"
       ],
       "createdAt": "2026-02-13T08:56:04Z",
-      "updatedAt": "2026-03-15T11:12:46Z",
+      "updatedAt": "2026-03-15T12:08:32Z",
       "license": "Apache License 2.0",
       "score": 70
     },
@@ -64,9 +64,9 @@
       "description": "The Ultimate Collection of 1000+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel.",
       "url": "https://github.com/sickn33/antigravity-awesome-skills",
       "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
-      "stars": 24440,
+      "stars": 24446,
       "forks": 4202,
-      "watchers": 24440,
+      "watchers": 24446,
       "language": "Python",
       "topics": [
         "agentic-skills",
@@ -83,7 +83,7 @@
         "skill-library"
       ],
       "createdAt": "2026-01-14T17:48:09Z",
-      "updatedAt": "2026-03-15T11:21:15Z",
+      "updatedAt": "2026-03-15T12:09:10Z",
       "license": "MIT License",
       "score": 69
     },
@@ -94,9 +94,9 @@
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
       "url": "https://github.com/qwibitai/nanoclaw",
       "homepage": "https://nanoclaw.dev",
-      "stars": 23024,
-      "forks": 5576,
-      "watchers": 23024,
+      "stars": 23038,
+      "forks": 5595,
+      "watchers": 23038,
       "language": "TypeScript",
       "topics": [
         "ai-agents",
@@ -106,7 +106,7 @@
         "openclaw"
       ],
       "createdAt": "2026-01-31T15:47:22Z",
-      "updatedAt": "2026-03-15T11:19:34Z",
+      "updatedAt": "2026-03-15T12:15:04Z",
       "license": "MIT License",
       "score": 69
     },
@@ -117,9 +117,9 @@
       "description": "LLM驱动的 A/H/美股智能分析器，多数据源行情 + 实时新闻 + Gemini 决策仪表盘 + 多渠道推送，零成本，纯白嫖，定时运行",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "homepage": "",
-      "stars": 20304,
-      "forks": 21024,
-      "watchers": 20304,
+      "stars": 20337,
+      "forks": 21067,
+      "watchers": 20337,
       "language": "Python",
       "topics": [
         "agent",
@@ -133,7 +133,7 @@
         "stock"
       ],
       "createdAt": "2026-01-10T06:43:20Z",
-      "updatedAt": "2026-03-15T11:22:23Z",
+      "updatedAt": "2026-03-15T12:12:50Z",
       "license": "MIT License",
       "score": 68
     },
@@ -161,9 +161,9 @@
       "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "homepage": "https://www.aikux.ai",
-      "stars": 16086,
+      "stars": 16088,
       "forks": 1479,
-      "watchers": 16086,
+      "watchers": 16088,
       "language": "Python",
       "topics": [
         "adal",
@@ -188,7 +188,7 @@
         "moltbot-skills"
       ],
       "createdAt": "2026-01-03T07:37:28Z",
-      "updatedAt": "2026-03-15T11:15:30Z",
+      "updatedAt": "2026-03-15T12:15:17Z",
       "license": "MIT License",
       "score": 65
     },
@@ -199,13 +199,13 @@
       "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
       "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
       "homepage": null,
-      "stars": 13875,
+      "stars": 13878,
       "forks": 1069,
-      "watchers": 13875,
+      "watchers": 13878,
       "language": "Python",
       "topics": [],
       "createdAt": "2025-12-21T02:43:42Z",
-      "updatedAt": "2026-03-15T09:41:51Z",
+      "updatedAt": "2026-03-15T12:14:30Z",
       "license": "MIT License",
       "score": 65
     },
@@ -216,9 +216,9 @@
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "url": "https://github.com/coreyhaines31/marketingskills",
       "homepage": "https://marketing-skills.com",
-      "stars": 13530,
-      "forks": 1967,
-      "watchers": 13530,
+      "stars": 13535,
+      "forks": 1969,
+      "watchers": 13535,
       "language": "JavaScript",
       "topics": [
         "claude",
@@ -226,7 +226,7 @@
         "marketing"
       ],
       "createdAt": "2026-01-15T19:45:23Z",
-      "updatedAt": "2026-03-15T11:15:18Z",
+      "updatedAt": "2026-03-15T11:50:09Z",
       "license": "MIT License",
       "score": 65
     },
@@ -237,9 +237,9 @@
       "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
       "url": "https://github.com/AlexsJones/llmfit",
       "homepage": "",
-      "stars": 16790,
-      "forks": 957,
-      "watchers": 16790,
+      "stars": 16807,
+      "forks": 959,
+      "watchers": 16807,
       "language": "Rust",
       "topics": [
         "llm",
@@ -247,7 +247,7 @@
         "skill"
       ],
       "createdAt": "2026-02-15T16:11:31Z",
-      "updatedAt": "2026-03-15T11:12:48Z",
+      "updatedAt": "2026-03-15T12:11:49Z",
       "license": "MIT License",
       "score": 64
     }
