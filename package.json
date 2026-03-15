@@ -1,0 +1,12 @@
+{
+  "name": "reporadar",
+  "version": "1.0.0",
+  "description": "Weekly trending GitHub repositories for AI, agents, and developer tools",
+  "main": "fetch-repos.js",
+  "scripts": {
+    "fetch": "node fetch-repos.js"
+  },
+  "keywords": ["github", "trending", "ai", "agents", "repositories"],
+  "author": "",
+  "license": "MIT"
+}

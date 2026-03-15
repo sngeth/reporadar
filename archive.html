@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive - RepoRadar</title>
+    <meta name="description" content="Historical trending GitHub repositories">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+
+        .nav {
+            background: #fff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+        }
+
+        .nav-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .logo-emoji {
+            margin-right: 8px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 0.9375rem;
+            font-weight: 500;
+        }
+
+        .nav-link:hover {
+            color: #000;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.125rem;
+            margin-bottom: 48px;
+        }
+
+        .archive-list {
+            list-style: none;
+        }
+
+        .archive-item {
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        .archive-date {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        .archive-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #000;
+        }
+
+        .archive-description {
+            color: #666;
+            font-size: 0.9375rem;
+            margin-bottom: 12px;
+        }
+
+        .archive-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 0.8125rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 48px 24px;
+            border-top: 1px solid #e5e5e5;
+            margin-top: 64px;
+        }
+
+        footer p {
+            font-size: 0.8125rem;
+            color: #999;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 24px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="index.html" class="logo"><span class="logo-emoji">📡</span>RepoRadar</a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Latest</a>
+                <a href="archive.html" class="nav-link">Archive</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Archive</h1>
+        <p class="subtitle">Historical trending repositories</p>
+
+        <ul id="archive-list" class="archive-list">
+            <li class="loading">Loading archive...</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Data from GitHub · Updated Weekly</p>
+    </footer>
+
+    <script>
+        async function loadArchive() {
+            const listEl = document.getElementById('archive-list');
+
+            try {
+                const response = await fetch('archive-index.json');
+                const index = await response.json();
+
+                if (!index || index.length === 0) {
+                    listEl.innerHTML = '<li class="loading">No archived repositories yet.</li>';
+                    return;
+                }
+
+                listEl.innerHTML = '';
+
+                for (const item of index) {
+                    const li = document.createElement('li');
+                    li.className = 'archive-item';
+                    li.innerHTML = `
+                        <div class="archive-date">${formatDate(item.date)}</div>
+                        <div class="archive-name">${item.name}</div>
+                        <div class="archive-description">${item.description}</div>
+                        <div class="archive-meta">
+                            <span>⭐ ${formatNumber(item.stars)} stars</span>
+                        </div>
+                    `;
+                    listEl.appendChild(li);
+                }
+            } catch (err) {
+                console.error('Error loading archive:', err);
+                listEl.innerHTML = '<li class="loading">Unable to load archive.</li>';
+            }
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        function formatNumber(num) {
+            if (num >= 1000) {
+                return (num / 1000).toFixed(1) + 'K';
+            }
+            return num.toString();
+        }
+
+        loadArchive();
+    </script>
+</body>
+</html>
