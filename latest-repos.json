@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-18",
   "repository": {
     "name": "deepseek-harness",
     "fullName": "deepseek-ai/deepseek-harness",
@@ -7,9 +7,9 @@
     "description": "DeepSeek Harness: Everything is a Plugin.",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
     "homepage": "https://deepseek.com/harness",
-    "stars": 247424,
-    "forks": 29731,
-    "watchers": 247424,
+    "stars": 252894,
+    "forks": 30429,
+    "watchers": 252894,
     "language": "TypeScript",
     "topics": [
       "ai-agents",
@@ -18,7 +18,7 @@
       "dsh-plugin"
     ],
     "createdAt": "2026-08-13T11:56:32Z",
-    "updatedAt": "2026-10-11T17:25:45Z",
+    "updatedAt": "2026-10-18T15:31:04Z",
     "license": "MIT License",
     "score": 80
   },
@@ -32,15 +32,48 @@
   },
   "alternates": [
     {
+      "name": "watermarks-remover",
+      "fullName": "guillaumemeyer/watermarks-remover",
+      "owner": "guillaumemeyer",
+      "description": "A privacy-first app that strips AI watermarks from content you own.",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
+      "stars": 24362,
+      "forks": 2795,
+      "watchers": 24362,
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "ai",
+        "anthropic",
+        "c2pa",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "openai",
+        "provenance",
+        "synthid",
+        "watermark",
+        "watermark-detection",
+        "watermark-tools",
+        "watermarking",
+        "watermarks"
+      ],
+      "createdAt": "2026-08-11T16:32:38Z",
+      "updatedAt": "2026-10-18T14:44:20Z",
+      "license": "MIT License",
+      "score": 68
+    },
+    {
       "name": "hypit",
       "fullName": "hypit-ai/hypit",
       "owner": "hypit-ai",
       "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
       "url": "https://github.com/hypit-ai/hypit",
       "homepage": "https://hypit.ai",
-      "stars": 21134,
-      "forks": 2318,
-      "watchers": 21134,
+      "stars": 23420,
+      "forks": 2727,
+      "watchers": 23420,
       "language": "TypeScript",
       "topics": [
         "agentic-ai",
@@ -65,70 +98,9 @@
         "video-generation"
       ],
       "createdAt": "2026-07-29T18:49:19Z",
-      "updatedAt": "2026-10-11T17:28:05Z",
+      "updatedAt": "2026-10-18T15:31:58Z",
       "license": "Other",
       "score": 68
-    },
-    {
-      "name": "watermarks-remover",
-      "fullName": "guillaumemeyer/watermarks-remover",
-      "owner": "guillaumemeyer",
-      "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
-      "stars": 23854,
-      "forks": 2740,
-      "watchers": 23854,
-      "language": "Python",
-      "topics": [
-        "agent-skill",
-        "ai",
-        "anthropic",
-        "c2pa",
-        "chatgpt",
-        "claude",
-        "gemini",
-        "openai",
-        "provenance",
-        "synthid",
-        "watermark",
-        "watermark-detection",
-        "watermark-tools",
-        "watermarking",
-        "watermarks"
-      ],
-      "createdAt": "2026-08-11T16:32:38Z",
-      "updatedAt": "2026-10-11T17:24:20Z",
-      "license": "MIT License",
-      "score": 67
-    },
-    {
-      "name": "img2threejs",
-      "fullName": "img2threejs/img2threejs",
-      "owner": "img2threejs",
-      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "url": "https://github.com/img2threejs/img2threejs",
-      "homepage": "https://img2threejs.io",
-      "stars": 17939,
-      "forks": 1511,
-      "watchers": 17939,
-      "language": "Python",
-      "topics": [
-        "3d",
-        "ai-agents",
-        "claude-code",
-        "computer-graphics",
-        "generative",
-        "image-to-3d",
-        "procedural-generation",
-        "threejs",
-        "typescript",
-        "webgl"
-      ],
-      "createdAt": "2026-07-15T02:58:39Z",
-      "updatedAt": "2026-10-11T17:24:51Z",
-      "license": "Apache License 2.0",
-      "score": 65
     },
     {
       "name": "moli",
@@ -137,9 +109,9 @@
       "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
       "url": "https://github.com/lexmount/moli",
       "homepage": "https://browser.lexmount.com",
-      "stars": 16290,
-      "forks": 397,
-      "watchers": 16290,
+      "stars": 19432,
+      "forks": 643,
+      "watchers": 19432,
       "language": "Rust",
       "topics": [
         "ai-agents",
@@ -158,8 +130,60 @@
         "web-scraping"
       ],
       "createdAt": "2026-08-10T13:20:30Z",
-      "updatedAt": "2026-10-11T17:29:46Z",
+      "updatedAt": "2026-10-18T15:34:12Z",
       "license": "Apache License 2.0",
+      "score": 66
+    },
+    {
+      "name": "dsh-our-free-model",
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "owner": "Ebony-Vinyl",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "homepage": null,
+      "stars": 24304,
+      "forks": 518,
+      "watchers": 24304,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "createdAt": "2026-09-24T16:17:19Z",
+      "updatedAt": "2026-10-18T15:34:08Z",
+      "license": "MIT License",
+      "score": 65
+    },
+    {
+      "name": "magpie",
+      "fullName": "yetone/magpie",
+      "owner": "yetone",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "url": "https://github.com/yetone/magpie",
+      "homepage": "https://usemagpie.ai",
+      "stars": 15733,
+      "forks": 1129,
+      "watchers": 15733,
+      "language": "Go",
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "createdAt": "2026-09-23T16:22:35Z",
+      "updatedAt": "2026-10-18T15:33:25Z",
+      "license": "MIT License",
       "score": 65
     },
     {
@@ -169,9 +193,9 @@
       "description": "Use ChatGPT Web (including Pro) as a native model in Codex — with context, tools, streaming and images, without using Codex quota.",
       "url": "https://github.com/miuuyy/codex-chatgpt-web",
       "homepage": "",
-      "stars": 13987,
-      "forks": 1097,
-      "watchers": 13987,
+      "stars": 14527,
+      "forks": 1140,
+      "watchers": 14527,
       "language": "TypeScript",
       "topics": [
         "chatgpt",
@@ -186,7 +210,7 @@
         "typescript"
       ],
       "createdAt": "2026-07-26T13:04:44Z",
-      "updatedAt": "2026-10-11T17:06:28Z",
+      "updatedAt": "2026-10-18T15:25:13Z",
       "license": "MIT License",
       "score": 63
     },
@@ -197,9 +221,9 @@
       "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
       "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
       "homepage": "https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59",
-      "stars": 8986,
-      "forks": 1475,
-      "watchers": 8986,
+      "stars": 9094,
+      "forks": 1485,
+      "watchers": 9094,
       "language": "C",
       "topics": [
         "avx2",
@@ -224,7 +248,7 @@
         "zero-dependencies"
       ],
       "createdAt": "2026-08-01T09:29:38Z",
-      "updatedAt": "2026-10-11T17:09:44Z",
+      "updatedAt": "2026-10-18T10:12:39Z",
       "license": "Apache License 2.0",
       "score": 63
     },
@@ -235,9 +259,9 @@
       "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
       "url": "https://github.com/google/artemis",
       "homepage": "",
-      "stars": 11335,
-      "forks": 1162,
-      "watchers": 11335,
+      "stars": 12273,
+      "forks": 1419,
+      "watchers": 12273,
       "language": "Python",
       "topics": [
         "ai-agents",
@@ -247,32 +271,8 @@
         "testing"
       ],
       "createdAt": "2026-08-13T17:59:37Z",
-      "updatedAt": "2026-10-11T17:10:09Z",
+      "updatedAt": "2026-10-18T15:33:27Z",
       "license": "Apache License 2.0",
-      "score": 62
-    },
-    {
-      "name": "magpie",
-      "fullName": "yetone/magpie",
-      "owner": "yetone",
-      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-      "url": "https://github.com/yetone/magpie",
-      "homepage": "https://usemagpie.ai",
-      "stars": 9095,
-      "forks": 607,
-      "watchers": 9095,
-      "language": "Go",
-      "topics": [
-        "claude-code",
-        "codex",
-        "deepseek",
-        "gemini-cli",
-        "llm",
-        "macos"
-      ],
-      "createdAt": "2026-09-23T16:22:35Z",
-      "updatedAt": "2026-10-11T17:28:26Z",
-      "license": "MIT License",
       "score": 62
     },
     {
@@ -282,9 +282,9 @@
       "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
       "url": "https://github.com/jev-chat/jev-chat-jarvis",
       "homepage": "https://chatjevs.com",
-      "stars": 7605,
-      "forks": 1246,
-      "watchers": 7605,
+      "stars": 7881,
+      "forks": 1278,
+      "watchers": 7881,
       "language": "Kotlin",
       "topics": [
         "accessibility-service",
@@ -298,7 +298,7 @@
         "whatsapp"
       ],
       "createdAt": "2026-09-21T11:12:53Z",
-      "updatedAt": "2026-10-11T16:04:45Z",
+      "updatedAt": "2026-10-18T14:59:30Z",
       "license": "MIT License",
       "score": 61
     }
